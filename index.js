@@ -2,7 +2,7 @@ const taskContainer = document.querySelector(".task__container");
 
 //Global store
 let globalStore = [];
-
+const notification = new Notification();
 
 const newCard = ({ id, imageUrl, taskTitle, taskDescription, taskType }) => `<div class="col-md-6 col-lg-4 id=${id}">
 <div class="card ">
